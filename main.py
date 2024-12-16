@@ -50,6 +50,12 @@ elif choice == 4:
 else :
      print("Invalid input ! Please select a valid operation.")
 
+#string slicing
+fruit = "MANGO"
+print(fruit[0:5])
+print(fruit[-4:-1])
+
+
 
 
 
