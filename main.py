@@ -60,29 +60,54 @@
 # for i in alphabets:
 #     print(i)
 
-nm = "Harry"
-print(nm[-4:-2])
+# nm = "Harry"
+# print(nm[-4:-2])
 
-bk = "hanzala!!! Muhammad!!!."
-print(len(bk))
+# bk = "hanzala!!! Muhammad!!!."
+# print(len(bk))
      
-print(bk.upper())
-print(nm.lower())
-print(bk.rstrip('!'))
+# print(bk.upper())
+# print(nm.lower())
+# print(bk.rstrip('!'))
 
-print(bk.replace("hanzala","Muhammad"))
-print(bk.split())
-print(bk.capitalize())
-print(bk.count("!"))
-print(bk.endswith("."))
-print(bk.find("!"))
-print(nm.isalnum())
-print(nm.isalpha())
-print(nm.isnumeric())
-print(nm.islower())
-print(bk.isprintable())
-print(bk.isspace())
-print(bk.istitle())
-print(bk.startswith("h"))
-print(bk.swapcase())
-print(bk.title())
+# print(bk.replace("hanzala","Muhammad"))
+# print(bk.split())
+# print(bk.capitalize())
+# print(bk.count("!"))
+# print(bk.endswith("."))
+# print(bk.find("!"))
+# print(nm.isalnum())
+# print(nm.isalpha())
+# print(nm.isnumeric())
+# print(nm.islower())
+# print(bk.isprintable())
+# print(bk.isspace())
+# print(bk.istitle())
+# print(bk.startswith("h"))
+# print(bk.swapcase())
+# print(bk.title())
+
+#conditional operators
+
+a = int (input("Enter the price: "))
+print("The price is",a)
+if(a<180):
+    print("You can  buy it")
+elif(a==180):
+    print("You have no money left")
+else:
+    print("You do not have enough money")
+
+num = int(input("Enter a number : "))
+if(num>0):
+    print("The number is Positive")
+elif(num<0):
+    if(num>0 & num<=10):
+        print("The number is between 1-10")
+    elif(num>10 & num<=20):
+        print("The number is between 11-20")  
+    else:
+        print("The number is greater then 20")
+else:
+    print("The number is Negative")      
+
