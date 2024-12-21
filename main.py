@@ -89,25 +89,38 @@
 
 #conditional operators
 
-a = int (input("Enter the price: "))
-print("The price is",a)
-if(a<180):
-    print("You can  buy it")
-elif(a==180):
-    print("You have no money left")
-else:
-    print("You do not have enough money")
+# a = int (input("Enter the price: "))
+# print("The price is",a)
+# if(a<180):
+#     print("You can  buy it")
+# elif(a==180):
+#     print("You have no money left")
+# else:
+#     print("You do not have enough money")
 
-num = int(input("Enter a number : "))
-if(num>0):
-    print("The number is Positive")
-elif(num<0):
-    if(num>0 & num<=10):
-        print("The number is between 1-10")
-    elif(num>10 & num<=20):
-        print("The number is between 11-20")  
-    else:
-        print("The number is greater then 20")
-else:
-    print("The number is Negative")      
+# num = int(input("Enter a number : "))
+# if(num>0):
+#     print("The number is Positive")
+# elif(num<0):
+#     if(num>0 & num<=10):
+#         print("The number is between 1-10")
+#     elif(num>10 & num<=20):
+#         print("The number is between 11-20")  
+#     else:
+#         print("The number is greater then 20")
+# else:
+#     print("The number is Negative")   
+# import time   
+#  time = int(time.strftime("%H:%M:%S"))
+# if(time<=12):
+#     print("GOOD MORNING !")
+# elif(time>12 & time<=19):
+#     print("GOOD EVENING !")
+# else:
+#     print("GOOD NIGHT !")
 
+
+time = 1.2
+print(type(time))
+Time = 1.8
+print("The sum of two numbbers is : ",time + Time)
