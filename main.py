@@ -120,7 +120,28 @@
 #     print("GOOD NIGHT !")
 
 
-time = 1.2
-print(type(time))
-Time = 1.8
-print("The sum of two numbbers is : ",time + Time)
+# time = 1.2
+# print(type(time))
+# Time = 1.8
+# print("The sum of two numbbers is : ",time + Time)
+
+a = int(input("ENTER OBTAINED MARKS : "))
+b = int(input("ENTER TOTAL MARKS : "))
+c = a/b*100
+
+print("YOUR PERCENTAGE IS : ",c)
+
+if(c>=80):
+    print("YOU HAVE GOT A+ GRADE.")
+elif(c>=70 and c<80):
+    print("YOU HAVE GOT A GRADE")    
+elif(c>=60 and c<70):
+    print("YOU HAVE GOT B GRADE")
+elif(c>=50 and c<60):
+    print("YOU HAVE GOT C GRADE")
+elif(c>=33 and c<50):
+    print("YOU HAVE GOT D GRADE")
+elif(c<33):
+    print("YOU ARE FAIL")
+else:
+    print("ERROR!")    
