@@ -8,5 +8,10 @@ public class Main{
 
 car1.display();
 car2.display();
+
+Student s1 = new Student("Muhammad Hanzala", 19);
+Student s2 = new Student("MAAZ SIDDIQUI",19);
+s1.display();
+s2.display();
     }
 }
